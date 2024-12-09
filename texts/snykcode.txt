@@ -1,0 +1,17 @@
+Overall experience:
+Snyk Code is a powerful SAST tool that offers fast and accurate vulnerability scanning with AI-powered fix suggestions. It integrates seamlessly into the development workflow, providing real-time feedback in IDEs and CI/CD pipelines. The tool's speed and accuracy are impressive, making it a valuable asset for out team of developers when looking to improve code security without sacrificing productivity.
+
+What do you like most about the product or service?
+In our experience the main feature of Snyk Code is its speed and accuracy. It performs scans much faster than legacy tools and quicker than other modern SAST solutions. The AI-powered DeepCode engine provides quick and reliable fix suggestions, which are automatically screened for security before being presented to developers. The IDE integration allows for early detection and remediation of vulnerabilities, saving time and reducing costs.
+
+What do you dislike most about the product or service?
+Despite its strengths, Snyk Code can sometimes generate horrific false positives, which can be time-consuming to manage. The policy overrides and alert management can be complex, potentially leading to alert fatigue.
+
+If you could start over, what would your organization do differently?
+If starting over, it would have been beneficial to invest more time in properly configuring Snyk Code to reduce false positives and tailor it to our specific development environment. Setting up clear policies and workflows for handling alerts and prioritizing vulnerabilities would help streamline the security process and maximize the tool's effectiveness, I think.
+
+What one piece of advice would you give other prospective customers?
+Take full advantage of Snyk Code's IDE integrations and developer-friendly features. Encourage developers to use the tool early in the development process to catch and fix vulnerabilities before they become more complex and costly to address. Also, be prepared to fine-tune the tool's settings to minimize false positives and optimize its performance for your specific use case.
+
+Review headline:
+Snyk Code: Lightning-fast SAST with AI-powered fixes, despite some management challenges
