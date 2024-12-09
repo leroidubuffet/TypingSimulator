@@ -26,26 +26,49 @@ This is a Python script that simulates typing text from a specified file on your
 ---
 
 ## Setup
-1. Clone or download this repository.
-2. Install dependencies:
+### Step 1: Clone or Download the Repository
+1. Clone this repository or download the ZIP and extract it:
    ```bash
-   pip install pyautogui
+   git clone <repository-url>
+   cd <repository-folder>
    ```
-3. Ensure the file path specified in the script exists and contains the text you want to type:
-   - Update the `file_path` variable if needed:
-     ```python
-     file_path = 'texts/textfile.txt'
+
+### Step 2: Create a Virtual Environment
+1. Create a virtual environment using `venv`:
+   ```bash
+   python -m venv venv
+   ```
+2. Activate the virtual environment:
+   - On **Windows**:
+     ```bash
+     venv\Scripts\activate
      ```
+   - On **macOS/Linux**:
+     ```bash
+     source venv/bin/activate
+     ```
+
+### Step 3: Install Dependencies
+1. Install the required libraries using `requirements.txt`:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+   > If a `requirements.txt` file does not exist yet, create one and add the following line:
+   ```
+   pyautogui
+   ```
 
 ---
 
 ## How to Use
-1. Place your text file at the specified location (default is `texts/textfile.txt`).
-2. Run the script:
+1. Ensure your virtual environment is activated.
+2. Place your text file at the specified location (default is `texts/textfile.txt`).
+3. Run the script:
    ```bash
    python typing_simulator.py
    ```
-3. After a 5-second countdown, the script will begin typing the text from the file.
+4. After a 5-second countdown, the script will begin typing the text from the file.
 
 ---
 
